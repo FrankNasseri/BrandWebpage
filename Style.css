@@ -1,5 +1,8 @@
 ﻿body {
 }
+#halfWidthList{
+    background-color:aqua;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -15,14 +18,34 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 img{
-    width: 70px;
+    /*width: 70px;*/
+    width:100%;
 }
 .headers {
+    text-align:center;
+}
+.howItWorks {
+    text-align:center;
+}
+.threeCols{
+    column-count:3;
+    column-gap:40px;
+    text-align:center;  
+    align-content:center;
+}
+#picTwo{
+    width:80%;
+}
+.otherProducts{
+    column-count:6;
+    text-align:center;
+}
+h3{
     text-align:center;
 }
